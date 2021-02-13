@@ -1,64 +1,60 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Alican Bozkurt
 
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position/tagline
-role: Professor of Artificial Intelligence
+# Role/position
+role: AI Scientist
 
-# Organizations/Affiliations to show in About widget
+# Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: Paige
+  url: "https://paige.ai/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Probabilistic Programming
+- Deep Learning
+- Biomedical Image Processing
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: "PhD in Machine Learning"
+    institution: "Northeastern University"
+    year: 2020
+  - course: "MSc in Image Processing"
+    institution: "Bilkent University"
+    year: 2013
+  - course: "BSc in Electrical and Electronics Engineering"
+    institution: "Bilkent University"
+    year: 2011
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+- icon: "envelope"
+  icon_pack: "fas"
+  link: "mailto:alican@ece.neu.edu"
+- icon: "google-scholar"
+  icon_pack: "ai"
+  link: "https://scholar.google.com/citations?user:HadTR2kAAAAJ"
+- icon: "github"
+  icon_pack: "fab"
+  link: "https://github.com/alicanb"
 
-# Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
-# and uncomment the lines below.
+- icon: "file-pdf"
+  icon_pack: "fa"
+  link: "https://drive.google.com/open?id=0B9xKeFS4aancSXhOeElXV1dhZWM"
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
 #   link: media/resume.pdf
@@ -67,11 +63,13 @@ social:
 email: ""
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+I am a AI Scientist at [Paige AI](https://paige.ai/). I did my Ph.D. with [Jennifer Dy](http://www.ece.neu.edu/people/dy-jennifer), [Dana Brooks](http://www.ece.neu.edu/people/brooks-dana), and [Jan-Willem van de Meent](http://www.ccs.neu.edu/home/jwvdm/) at Northeastern University. My main research interests are machine learning with emphasis on probabilistic programming, deep neural networks, and their applications in biomedical image processing. I am one of the developers of [Probabilistic Torch](https://github.com/probtorch/probtorch), a library for deep generative models that extends PyTorch. I am also one of the maintainers of the Pytorch distributions module. 

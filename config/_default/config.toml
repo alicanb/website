@@ -6,15 +6,15 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+title = "Alican Bozkurt"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = ""
+baseurl = "http://alicanb.github.io/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = ""
+copyright = "&copy; {year} Alican Bozkurt"
 
 ############################
 ## Advanced options below ##
@@ -63,7 +63,7 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
 
 [imaging]
   resampleFilter = "lanczos"
-  quality = 75
+  quality = 90
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
 
 # Taxonomies.
