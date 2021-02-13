@@ -2,15 +2,15 @@
 title: "Structured Disentagled Representations"
 
 authors:
-- B. Esmaeili
-- H. Wu
-- S. Jain
+- Babak Esmaeili
+- Hao Wu
+- Sarthak Jain
 - admin
 - N. Siddarth
-- B. Paige
-- J. G. Dy
-- D. H. Brooks
-- J. W. van de Meent
+- Brooks Paige
+- Jennifer Dy
+- Dana H. Brooks
+- Jan-Willem van de Meent
 
 date: "2019-04-04T00:00:00"
 doi: ""
@@ -73,6 +73,6 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 
-#header:
-#- image: "banners/hfvae.png"
+header:
+  image: "banners/hfvae.png"
 ---
