@@ -23,7 +23,7 @@ authors:
 # 6: Book section
 # 7: Thesis
 # 8: Patent
-publication_types: ["9"]
+publication_types: ["0"]
 
 # Publication name and optional abbreviated version.
 publication: "In *Biophotonics Congress: Biomedical Optics Congress 2018 (Microscopy/Translational/Brain/OTS)*"

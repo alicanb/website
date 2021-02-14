@@ -3,7 +3,12 @@ title: "Facilitating the Adoption of Reflectance Confocal Microscopy (RCM) in Cl
 date: 2019-08-08T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors: ["K. Kose","admin","J. G. Dy","D. H. Brooks","M. Rajadhyaksha"]
+authors:
+- Kivanc Kose
+- admin
+- Jennifer Dy
+- Dana Brooks
+- Milind Rajadhyaksha
 
 
 # Publication type.
@@ -17,7 +22,7 @@ authors: ["K. Kose","admin","J. G. Dy","D. H. Brooks","M. Rajadhyaksha"]
 # 6: Book section
 # 7: Thesis
 # 8: Patent
-publication_types: ["9"]
+publication_types: ["0"]
 
 # Publication name and optional abbreviated version.
 publication: "In Frontier of AI-Assisted Care (FAC) Scientific Symposium"
