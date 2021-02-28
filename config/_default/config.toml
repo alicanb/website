@@ -35,18 +35,18 @@ enableEmoji = true
 enableRobotsTXT = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
-disableAliases = true  # Disable aliases when `redirects` is added to the `outputs` below.
 
 [permalinks]
   # If only creating events which are talks, we can optimize event URLs for talks.
   event = "/talk/:slug/"
   # Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
+  authors = "/author/:slug/"
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
   publication_types = "/publication-type/:slug/"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "WebAppManifest", "headers", "redirects"]
+  home = ["HTML", "RSS", "JSON", "WebAppManifest", "headers"]
   section = ["HTML", "RSS"]
 
 # Configure the Markdown renderer.
@@ -63,7 +63,7 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
 
 [imaging]
   resampleFilter = "lanczos"
-  quality = 90
+  quality = 75
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
 
 # Taxonomies.
