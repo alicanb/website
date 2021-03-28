@@ -1,16 +1,1 @@
-@article{bozkurt2019evaluating,
-       author = {{Bozkurt}, Alican and {Esmaeili}, Babak and {Brooks}, Dana H. and
-         {Dy}, Jennifer G. and {van de Meent}, Jan-Willem},
-        title = "{Evaluating Combinatorial Generalization in Variational Autoencoders}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
-         year = "2019",
-        month = "Nov",
-          eid = {arXiv:1911.04594},
-        pages = {arXiv:1911.04594},
-archivePrefix = {arXiv},
-       eprint = {1911.04594},
- primaryClass = {cs.LG},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv191104594B},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
+@InProceedings{pmlr-v130-bozkurt21a, title = { Rate-Regularization and Generalization in Variational Autoencoders }, author = {Bozkurt, Alican and Esmaeili, Babak and Tristan, Jean-Baptiste and Brooks, Dana and Dy, Jennifer and van de Meent, Jan-Willem}, booktitle = {Proceedings of The 24th International Conference on Artificial Intelligence and Statistics}, pages = {3880--3888}, year = {2021}, editor = {Arindam Banerjee and Kenji Fukumizu}, volume = {130}, series = {Proceedings of Machine Learning Research}, month = {13--15 Apr}, publisher = {PMLR}, pdf = {http://proceedings.mlr.press/v130/bozkurt21a/bozkurt21a.pdf}, url = { http://proceedings.mlr.press/v130/bozkurt21a.html }, abstract = { Variational autoencoders (VAEs) optimize an objective that comprises a reconstruction loss (the distortion) and a KL term (the rate). The rate is an upper bound on the mutual information, which is often interpreted as a regularizer that controls the degree of compression. We here examine whether inclusion of the rate term also improves generalization. We perform rate-distortion analyses in which we control the strength of the rate term, the network capacity, and the difficulty of the generalization problem. Lowering the strength of the rate term paradoxically improves generalization in most settings, and reducing the mutual information typically leads to underfitting. Moreover, we show that generalization performance continues to improve even after the mutual information saturates, indicating that the gap on the bound (i.e. the KL divergence relative to the inference marginal) affects generalization. This suggests that the standard spherical Gaussian prior is not an inductive bias that typically improves generalization, prompting further work to understand what choices of priors improve generalization in VAEs. } }

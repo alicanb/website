@@ -26,11 +26,11 @@ author_notes:
 # 6: Book section
 # 7: Thesis
 # 8: Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated version.
-publication: In *AISTATS 2020*
-publication_short: In *AISTATS 2020*
+publication: In *Proceedings of The 24th International Conference on Artificial Intelligence and Statistics, PMLR 130:3880-3888, 2021.*
+publication_short: In *AISTATS 2021*
 
 # Abstract and optional shortened version.
 abstract: "Variational autoencoders (VAEs) optimize an objective that comprises a reconstruction loss (the distortion) and a KL term (the rate). The rate is an upper bound on the mutual information, which is often interpreted as a regularizer that controls the degree of compression. We here examine whether inclusion of the rate term also improves generalization. We perform rate-distortion analyses in which we control the strength of the rate term, the network capacity, and the difficulty of the generalization problem. Lowering the strength of the rate term paradoxically improves generalization in most settings, and reducing the mutual information typically leads to underfitting. Moreover, we show that generalization performance continues to improve even after the mutual information saturates, indicating that the gap on the bound (i.e. the KL divergence relative to the inference marginal) affects generalization. This suggests that the standard spherical Gaussian prior is not an inductive bias that typically improves generalization, prompting further work to understand what choices of priors improve generalization in VAEs."
@@ -49,12 +49,12 @@ featured: true
 tags: ['VAE']
 
 # Links (optional).
-url_pdf: ""
+url_pdf: "http://proceedings.mlr.press/v130/bozkurt21a.html"
 url_preprint: "https://arxiv.org/abs/1911.04594"
 url_code: ""
-url_dataset: ""
+url_dataset: "https://github.com/neu-pml/tetrominoes"
 url_project: ""
-url_slides: "https://drive.google.com/open?id=1EbNnHq63eJQu3W0QzPfbOfWmDjvXSvVG"
+url_slides: ""
 url_video: ""
 url_poster: "https://drive.google.com/file/d/1EOlT5em5PyjCqJY45dnEfJwBaDSL8JvD/view?usp=sharing"
 url_source: ""
