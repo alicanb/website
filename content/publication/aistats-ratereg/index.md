@@ -30,7 +30,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated version.
 publication: In *Proceedings of The 24th International Conference on Artificial Intelligence and Statistics, PMLR 130:3880-3888, 2021.*
-publication_short: In *AISTATS 2021*
+publication_short: In *AISTATS*
 
 # Abstract and optional shortened version.
 abstract: "Variational autoencoders (VAEs) optimize an objective that comprises a reconstruction loss (the distortion) and a KL term (the rate). The rate is an upper bound on the mutual information, which is often interpreted as a regularizer that controls the degree of compression. We here examine whether inclusion of the rate term also improves generalization. We perform rate-distortion analyses in which we control the strength of the rate term, the network capacity, and the difficulty of the generalization problem. Lowering the strength of the rate term paradoxically improves generalization in most settings, and reducing the mutual information typically leads to underfitting. Moreover, we show that generalization performance continues to improve even after the mutual information saturates, indicating that the gap on the bound (i.e. the KL divergence relative to the inference marginal) affects generalization. This suggests that the standard spherical Gaussian prior is not an inductive bias that typically improves generalization, prompting further work to understand what choices of priors improve generalization in VAEs."
